@@ -47,6 +47,7 @@ Pueden contener elementos duplicados.
 No puedes modificar, añadir o eliminar elementos después de la creación.
 """
 
+tuple = (1, 2, 3, 4)
 
 """
 --- Ejercicio 2 Tuplas ---
@@ -55,11 +56,21 @@ Imprime por consola el valor almacenado
 Despues haz los pasos pedidos
 """
 # Escribe tu código aquí
+plantas = ("Cactus", "Orquidea", "Rosas")
+
 # Escribe el código para saber la cantidad de elementos que tiene la tupla, imprimir por consola
+print(f"La tupla {plantas} contiene {len(plantas)} elementos")
+
 # Escribe el código para acceder al valor de la posición 2, imprimir por consola
+print(f"El valor 2 de la tupla de plantas es {plantas[2]}")
+
 # Intentar modificar una tupla
+
+# plantas[1] = "Margaritas"
 # plantas[1] = 'hoja rota'  # Descomenta esta línea para ver qué sucede
 # Escribe tu análisís acá acerca de qué sucede
+
+# Las tuplas, al ser inmutables, no es posible modificar nada sobre la misma 
 
 
 """
@@ -77,9 +88,24 @@ Imprime por la terminal dicha variable
 Haz los pasos pedidos
 """
 # Escribe el código aqui
+nombres = {"Maria", "Cris", "Cris", "Alex"}
+
 # Explica qué sucede cuándo imprimes el valor que almacena "nombres"
+
+print(nombres) # Al estar duplicados en el Set dos veces el mismo nombre, cuando imprimimos solo nos aparece uno de los elementos.
+
+
 # Escribe el código para saber la cantidad de elementos que tiene el set, imprimir por consola
+print(f"El set de nombres contiene {len(nombres)} elementos")
+
 # Escribe el código para acceder al valor de la posición 3, imprimir por consola
+nombres_lista = list(nombres)
+
+print(f"Al ser un set, tenemos que convertirlo en una lista para que nos diga que la posicion 3 es {nombres_lista[2]}")
+
+
+
+
 # Escribe el código para agregar una elemento al set, imprimir por consola el set
 # Escribe el código para eliminar un elemento del set, imprimir por consola el set
 """
