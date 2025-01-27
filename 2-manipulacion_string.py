@@ -14,6 +14,7 @@ Asígnale como valor una string con el nombre de una compañera".
 Crea una variable llamada "teammate-hobbie".
 Asígnale como valor una string con unos de sus hobbies".
 """
+
 hobbie = "Programar"
 name = "Adrian"
 teammate = "Patri"
