@@ -19,16 +19,21 @@ Despues haz los pasos pedidos
 """
 # Escribe tu código aquí
 mascotas = ["perro", "gato", "loro"]
+
 # Escribe el código para saber la cantidad de elementos que tiene la lista, imprimir por consola
 print(f"La lista {mascotas} contiene {len(mascotas)} elementos.")
+
 # Escribe el código para acceder al valor de la posición 2, imprimir por consola
 print(f"La posicion numero 2 contiene al animal {mascotas[1]}")
+
 # Escribe el código para agregar una elemento a la lista, imprimir por consola la lista
 mascotas.insert(1, "pajaros")
 print(f"A la lista de {mascotas} le hemos añadido un animal en la segunda posicion")
+
 # Escribe el código para modificar un elemento de la lista, imprimir por consola la lista
 mascotas[1] = "gaviota"
 print(mascotas)
+
 # Escribe el código para eliminar un elemento de la lista, imprimir por consola la lista
 mascotas.remove("perro")
 print(mascotas)
