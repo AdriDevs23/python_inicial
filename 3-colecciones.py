@@ -105,9 +105,14 @@ print(f"Al ser un set, tenemos que convertirlo en una lista para que nos diga qu
 
 
 
-
 # Escribe el código para agregar una elemento al set, imprimir por consola el set
+nombres.add("Patricia")
+print(nombres)
+
 # Escribe el código para eliminar un elemento del set, imprimir por consola el set
+nombres.remove("Alex")
+print(nombres)
+
 """
 
 
@@ -125,6 +130,25 @@ Crea un diccionario llamado "ciudad" con las claves 'nombre' y 'pais' y los valo
 Imprime el diccionario
 """
 # Escribe el código aqui para acceder y ver por consola el valor de 'nombre'
+
+ciudad = {"Nombre": "Barcelona", "Pais": "España"}
+
+print(ciudad["Nombre"])
+
 # Escribe el código aqui para añadir un nuevo par clave-valor y ver por consola el valor de 'ciudad'
+
+ciudad = {"Nombre": "Vallecas", "Pais": "Vallekas"}
+
+print(ciudad["Pais"])
+
 # Escribe el código aqui para modificar el valor de un par clave-valor de 'ciudad' y verlo por consola
+
+ciudad["Nombre"] = "Madrid"
+
+print(ciudad["Nombre"])
+
 # Escribe el código aqui para eliminar un par clave-valor de 'ciudad' y verlo por consola
+
+del ciudad["Pais"]
+
+print(ciudad)
